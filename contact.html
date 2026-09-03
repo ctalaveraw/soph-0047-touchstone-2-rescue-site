@@ -17,6 +17,65 @@
         </ul>
     </nav>
 </header>
+<main>
+    <section aria-labelledby="location-heading">
+        <h2 id="location-heading">Service Area</h2>
+        <p>We serve Minneapolis, St. Paul, and the surrounding Twin Cities metro area.</p>
+    </section>
+
+    <section aria-labelledby="hours-heading">
+        <h2 id="hours-heading">Office Hours</h2>
+        <p>Monday through Friday, 9:00 AM to 5:00 PM. Weekend hours by appointment for adoption meet and greets.</p>
+    </section>
+
+    <section aria-labelledby="form-heading">
+        <h2 id="form-heading">Get Involved</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Volunteer, Foster, or Adoption Interest Form</legend>
+
+                <p>
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="interest">Interest Type</label><br>
+                    <select id="interest" name="interest" required>
+                        <option value="">Select one</option>
+                        <option value="volunteer">Volunteer</option>
+                        <option value="foster">Foster</option>
+                        <option value="adoption">Adoption Information</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="availability">Availability</label><br>
+                    <input type="text" id="availability" name="availability" placeholder="e.g., weekday evenings, weekends" required>
+                </p>
+
+                <p>
+                    <label for="experience">Experience With Pets</label><br>
+                    <textarea id="experience" name="experience" rows="3" placeholder="Tell us about any pets you currently have or have cared for"></textarea>
+                </p>
+
+                <p>
+                    <label for="message">Short Message</label><br>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Submit Interest Form</button>
+                </p>
+            </fieldset>
+        </form>
+    </section>
+</main>
 <footer>
     <p>&copy; 2026 Twin Cities Animal Rescue. All rights reserved.</p>
 </footer>
